@@ -1,0 +1,44 @@
+:root {
+    --width-1: 10px;
+    --width-modern: 25px;
+    --gray1: #2b2b2e;
+    --primary: #4042a3;
+    --secondary: #EEEFFF;
+    --menu-w1: 15rem;
+    --menu-w2: 15rem;
+    --heigth-1: 3rem;
+  }
+
+
+  .w-005x { width: calc((100% / 24)*0.5 - var(--width-1)) !important }
+  .w-01x { width: calc((100% / 24)*1 - var(--width-1))  !important}
+  .w-015x { width: calc((100% / 24)*1.5 - var(--width-1))  !important}
+  .w-02x { width: calc((100% / 24)*2 - var(--width-1))  !important}
+  .w-025x { width: calc((100% / 24)*2.5 - var(--width-1))  !important}
+  .w-03x { width: calc((100% / 24)*3 - var(--width-1)) !important }
+  .w-035x { width: calc((100% / 24)*3.5 - var(--width-1))  !important}
+  .w-04x { width: calc((100% / 24)*4 - var(--width-1))  !important}
+  .w-045x { width: calc((100% / 24)*4.5 - var(--width-1))  !important}
+  .w-05x { width: calc((100% / 24)*5 - var(--width-1))  !important}
+  .w-055x { width: calc((100% / 24)*5.5 - var(--width-1)) !important }
+  .w-06x { width: calc((100% / 24)*6 - var(--width-1))  !important}
+  .w-07x { width: calc((100% / 24)*7 - var(--width-1)) !important }
+  .w-075x { width: calc((100% / 24)*7.5 - var(--width-1))  !important}
+  .w-08x { width: calc((100% / 24)*8 - var(--width-1))  !important}
+  .w-09x { width: calc((100% / 24)*9 - var(--width-1))  !important}
+  .w-10x { width: calc((100% / 24)*10 - var(--width-1))  !important}
+  .w-11x { width: calc((100% / 24)*11 - var(--width-1))  !important}
+  .w-12x { width: calc((100% / 24)*12 - var(--width-1))  !important}
+  .w-13x { width: calc((100% / 24)*13 - var(--width-1))  !important}
+  .w-14x { width: calc((100% / 24)*14 - var(--width-1))  !important}
+  .w-15x { width: calc((100% / 24)*15 - var(--width-1))  !important}
+  .w-16x { width: calc((100% / 24)*16 - var(--width-1))  !important}
+  .w-17x { width: calc((100% / 24)*17 - var(--width-1))  !important}
+  .w-18x { width: calc((100% / 24)*18 - var(--width-1))  !important}
+  .w-19x { width: calc((100% / 24)*19 - var(--width-1))  !important}
+  .w-20x { width: calc((100% / 24)*20 - var(--width-1))  !important}
+  .w-21x { width: calc((100% / 24)*21 - var(--width-1))  !important}
+  .w-22x { width: calc((100% / 24)*22 - var(--width-1))  !important}
+  .w-23x { width: calc((100% / 24)*23 - var(--width-1))  !important}
+  .w-24x { width: calc(100% - var(--width-1)) }
+    

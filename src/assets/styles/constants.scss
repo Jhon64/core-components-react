@@ -1,0 +1,42 @@
+$tamanio-fuente:13px;
+$tamanio-fuente-icon:12px;
+$sidebar-width:250px;
+$sidebar-width-sm:50px;
+$header-height:50px;
+
+/*Icono MEnu*/
+$bg-icon-menu-color:#EDEDED;
+$bg-icon-menu-hover-color:rgba(107, 114, 128, 0.8);
+$text-icon-menu-color:rgba(107, 114, 128, 0.8);
+$text-icon-menu-hover-color:#FFF;
+
+/*COLOR DE LOS BACKGROUND CARDS FLOTANTES*/
+
+// $bg-app:#2A3F54;
+$bg-app:rgb(7 89 133);
+$bg-app-hover:rgb(7 89 133);
+$bg-color-app-active:rgb(6, 152, 249, 0.455);
+$text-color-app-active:rgb(6, 152, 249, 0.455);//*para colores de inputs
+$bg-menu-color-hover:rgba(0, 0, 0, 0.155);
+// $text-app:#2A3F54;
+$text-app:#FFF;
+$text-logo:rgba(107, 114, 128, 0.8);
+$text-hover-app:#FFF;
+$text-menu-color:#FFF;
+
+$bg-header:#EDEDED;
+$bg-color-active:rgb(9, 194, 157);
+
+// BreakPoints para tamaños de pantalla
+$min-X-small:0; //xs
+$max-X-small:576px; //xs
+$min-small:576px; //sm
+$max-small:768px;//sm
+$min-medium:768px;//md
+$max-medium:992px;//md
+$min-large:992px;//lg
+$max-large:1200px;//lg
+$min-extra-large:1200px;//xl
+$max-extra-large:1400px;//xl
+$max-min-max-large:1400px;//xxl
+

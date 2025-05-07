@@ -1,0 +1,4 @@
+@import '../../assets/styles/constants';
+.search-input:focus-visible{
+ outline: 1px solid $text-color-app-active;
+}

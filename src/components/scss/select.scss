@@ -1,0 +1,26 @@
+.select::before {
+   font-family: boxicons;
+   font-size: 16px;
+   content: "\ea29"; //icono UP
+   // height: 10px;
+   // width: 20px;
+   // background: black;
+   border: 1 px solid black;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+}
+
+.select.active::before {
+   font-family: boxicons;
+   content: "\ea32"; //icono UP
+   font-size: 16px;
+   border: 1 px solid black;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   // background: black;
+   border: 1 px solid black;
+}
+
+

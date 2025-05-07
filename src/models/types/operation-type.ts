@@ -1,0 +1,1 @@
+export type OperacionType = 'ADD' | 'EDIT' | 'DEL'

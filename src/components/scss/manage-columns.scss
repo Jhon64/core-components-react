@@ -1,0 +1,17 @@
+@import '../../assets/styles/constants';
+
+.manage-columns-component {
+    >button.active {
+        background-color: $bg-app-hover;
+        color: white;
+    }
+
+    >.card.active {
+        display: block !important;
+    }
+
+    >.card {
+        display: none !important;
+    }
+
+}
