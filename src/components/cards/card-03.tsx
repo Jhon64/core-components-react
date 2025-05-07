@@ -7,7 +7,7 @@ interface IProps {
 	style?: object
 }
 
-export const Card3 = (props: IProps) => {
+ const Card3 = (props: IProps) => {
 	const {
 		colorBorder = 'border-gray-400',
 		colorTitle = '',
@@ -22,3 +22,4 @@ export const Card3 = (props: IProps) => {
 		</fieldset>
 	)
 }
+export default Card3

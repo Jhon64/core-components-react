@@ -12,7 +12,7 @@ interface IScrollBar {
 	height?: string
 }
 
-export const ScrollBar = memo((props: IScrollBar) => {
+ const ScrollBar = memo((props: IScrollBar) => {
 	const inputRef = useRef(null)
 	const [cssScroll, setCssScroll] = useState({} as CSSProperties)
 
@@ -46,3 +46,5 @@ export const ScrollBar = memo((props: IScrollBar) => {
 		</>
 	)
 })
+
+export default ScrollBar

@@ -5,7 +5,7 @@ interface IPropsInputSearch {
    onBlur: (value: string) => void
 }
 
-export const InputSearch = React.memo((props: IPropsInputSearch) => {
+ const InputSearch = React.memo((props: IPropsInputSearch) => {
    const handleOnBlur = (e: any) => {
        const value = e.target.value
        if (props.onBlur) props.onBlur(value)
@@ -17,3 +17,5 @@ export const InputSearch = React.memo((props: IPropsInputSearch) => {
        onBlur={(e) => handleOnBlur(e)}
    />
 })
+
+export default InputSearch

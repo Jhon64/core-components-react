@@ -413,7 +413,7 @@ function SelectMultiple<T>(props: ISelect3Props<T>) {
   );
 }
 
-export function Select3<T>(props: ISelect3Props<T>) {
+ function Select3<T>(props: ISelect3Props<T>) {
   if (!props) return <></>;
   else
     return (
@@ -423,3 +423,5 @@ export function Select3<T>(props: ISelect3Props<T>) {
       </>
     );
 }
+
+export default Select3;

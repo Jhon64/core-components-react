@@ -34,7 +34,7 @@ export interface IInputCalendar
 	defaultValue?: any
 }
 
-export const InputCalendar = memo((props: IInputCalendar) => {
+ const InputCalendar = memo((props: IInputCalendar) => {
 	const [formSave, setFormSave] = useState(props.saveForm || {})
 	const [showCalendar, setShowCalendar] = useState<boolean>(false)
 	const [dateSelected, setDateSelected] = useState<Date>(
@@ -228,3 +228,5 @@ export const InputCalendar = memo((props: IInputCalendar) => {
 		</div>
 	)
 })
+
+export default InputCalendar

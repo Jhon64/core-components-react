@@ -2,7 +2,7 @@ import './index.scss'
 export interface IMyNotiy {
 	labels?: string[]
 }
-export const MyNotify = (props: IMyNotiy) => {
+ const MyNotify = (props: IMyNotiy) => {
 	if (!props.labels) return
 	const length = props.labels.length - 1
 	const parseLabels = props.labels.map((x, i) => {
@@ -29,3 +29,4 @@ export const MyNotify = (props: IMyNotiy) => {
 		</>
 	)
 }
+export default MyNotify

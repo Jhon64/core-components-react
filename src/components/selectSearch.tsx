@@ -26,7 +26,7 @@ export interface ISelect3Props<T /* , K */>
   top?: number;
 }
 
-export function SelectSearch<T>(props: ISelect3Props<T>) {
+ function SelectSearch<T>(props: ISelect3Props<T>) {
   const [formSave, setFormSave] = useState(props?.saveForm || {});
   const [labelRequired, setLabelRequired] = useState(
     props?.labelRequired || ""
@@ -338,3 +338,5 @@ export function SelectSearch<T>(props: ISelect3Props<T>) {
     </>
   );
 }
+
+export  default SelectSearch;

@@ -31,7 +31,7 @@ export interface IButtonProps {
 	size?: 'xs' | 'sm' | 'md' | 'lg'
 	rounded?: boolean
 }
-export const ButtonAdd = React.memo((props: IButtonProps) => {
+ const ButtonAdd = React.memo((props: IButtonProps) => {
 	const handleClick = (e: any) => {
 		if (props.onClick) props.onClick(e)
 	}
@@ -61,7 +61,7 @@ export const ButtonAdd = React.memo((props: IButtonProps) => {
 	)
 })
 
-export const Button2 = React.memo((props: IButtonProps) => {
+ const Button2 = React.memo((props: IButtonProps) => {
 	let styles = 'cursor-pointer hover:cursor-pointer border rounded py-1 px-2 '
 	let _css = props.css || props.style
 	if (props.primary || props.type == 'primary')
@@ -188,3 +188,5 @@ export const Button2 = React.memo((props: IButtonProps) => {
 		</Fragment>
 	)
 })
+
+export default {Button2, ButtonAdd}

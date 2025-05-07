@@ -17,7 +17,7 @@ interface IModalProps {
   items?: string;
   // size?:number
 }
-export const Drawer2 = React.memo((props: IModalProps) => {
+ const Drawer2 = React.memo((props: IModalProps) => {
   const width =
     props?.size == "xl"
       ? 1200
@@ -96,3 +96,4 @@ export const Drawer2 = React.memo((props: IModalProps) => {
     </Drawer>
   );
 });
+export default Drawer2;

@@ -1,12 +1,12 @@
 import { CSSProperties, Fragment, useEffect, useRef, useState } from 'react'
 
-import { Card02 } from '../cards/card-02'
+import cards from '../cards/card-02'
 import { LengthItems } from './nro-items-&search'
 import { ManageColumns } from './manage-columns'
-import { Button2 } from '../buttons/buttons'
+import buttons from '../buttons/buttons'
 
 import { Paginacion } from './paginacion'
-import { Modal } from '../modal'
+import  Modal  from '../modal'
 
 import ExcelJS from 'exceljs'
 
@@ -15,6 +15,10 @@ import { IColumnsTabla, IPropsTabla } from '../interfaces/ITablaComponent'
 import { Excel, IColumnType } from '../../helpers/excel.helper'
 import { StringHelper } from '../../helpers/string.helper'
 import { NotificacionUtils } from '../../utils/notificacion-utils'
+
+const {Card02,Card1}=cards
+const {Button2,ButtonAdd}=buttons
+
 
 interface IPropsBody {
 	overflow: boolean
@@ -53,7 +57,7 @@ export interface ITabla2State {
 	data: any[]
 }
 
-export const Tabla2 = (props: ITabla2Props) => {
+ const Tabla2 = (props: ITabla2Props) => {
 	const [THIS] = useState(() => {
 		return {
 			dataMap: new Map<any, any[]>(),
@@ -544,7 +548,7 @@ interface IModalExcel {
 	getRegistros: (regs: any[]) => void
 }
 
-export const ModalExcelImport = (props: IModalExcel) => {
+ const ModalExcelImport = (props: IModalExcel) => {
 	const inputeRef = useRef(null)
 	const [registros, setRegistros] = useState([])
 	const [archivoCargado, setArchivoCargado] = useState(false)
@@ -860,3 +864,6 @@ interface ITablaTHprops {
 const TablaFooter = () => {
 	return <tfoot></tfoot>
 }
+
+
+export default {Tabla2, ModalExcelImport}

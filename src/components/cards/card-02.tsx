@@ -21,7 +21,7 @@ children:JSX.Element
 class?:string
   styles?:react.CSSProperties
 }
-export const Card02=(props:ICard01)=>{
+ const Card02=(props:ICard01)=>{
   return <Fragment>
      <div style={props?.styles} className={'border boder-1 p-1 border-b-gray-300 rounded-md shadow dark:bg-blue-gray-900 dark:border-purple-500 dark:border'
     +'dark:rounded-2xl ' +(props.class)}>
@@ -29,7 +29,9 @@ export const Card02=(props:ICard01)=>{
     </div>
   </Fragment>
 }
-export const Card1=(props:ICard1Props):JSX.Element=>{
+
+
+ const Card1=(props:ICard1Props):JSX.Element=>{
   return <Fragment>
     <div className={'border border-gray-300 border-solid '+props.class}
          style={props.styles? props.styles:{}}>
@@ -49,3 +51,6 @@ export const Card1=(props:ICard1Props):JSX.Element=>{
     </div>
   </Fragment>
 }
+
+
+export default {Card02,Card1}

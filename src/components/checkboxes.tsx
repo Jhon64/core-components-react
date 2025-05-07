@@ -8,7 +8,7 @@ interface IPropsCheckbox2{
 
 
 
-export const CheckBox2 = (props:IPropsCheckbox2) => {
+ const CheckBox2 = (props:IPropsCheckbox2) => {
  const onchangeHandle = (evt: React.ChangeEvent<HTMLInputElement>) => {
   const value=evt.target.checked
   if (props.onChange) {
@@ -21,3 +21,5 @@ export const CheckBox2 = (props:IPropsCheckbox2) => {
    onChange={(e) => onchangeHandle(e)} />
  </>
 }
+
+export default CheckBox2

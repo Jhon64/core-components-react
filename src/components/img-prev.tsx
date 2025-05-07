@@ -5,7 +5,7 @@ interface IImgPrev {
   css?: CSSProperties
   class?: string
 }
-export const ImgPrev = (props: IImgPrev) => {
+ const ImgPrev = (props: IImgPrev) => {
   const baseFILES = ''//window.baseUrlAPI
   const urlDefault = "/images/default-img.gif"
   const prevImgRef = useRef(null as HTMLImageElement)
@@ -17,3 +17,5 @@ export const ImgPrev = (props: IImgPrev) => {
       style={{ border: "1px solid #ddd", ...props.css }} />
   </>
 }
+
+export default ImgPrev

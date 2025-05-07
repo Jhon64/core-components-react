@@ -2,7 +2,7 @@ import { memo } from "react";
 import { Modal } from "../modal";
 
 
-export const ConfirmDeleteAlert = memo(() => {
+ const ConfirmDeleteAlert = memo(() => {
  return <>
   <Modal
    show={true} >
@@ -13,3 +13,5 @@ export const ConfirmDeleteAlert = memo(() => {
   </Modal>
  </>
 })
+
+export default ConfirmDeleteAlert

@@ -1,7 +1,7 @@
 import { ChangeEvent, Component, Fragment, ReactNode } from "react";
 
-import { Select2 } from "../selects";
-import { InputSearch } from "../inputs/input-search";
+import Select2  from "../selects";
+
 
 
 interface IPropsLengthItems {

@@ -25,7 +25,7 @@ interface IButtonDeleteProps extends IButtonProps {
 	btnConfirmarTitle?: string
 	btnCancelarTitle?: string
 }
-export const ButtonDelete = memo((props: IButtonDeleteProps) => {
+ const ButtonDelete = memo((props: IButtonDeleteProps) => {
 	const [showState, setShowState] = useState(
 		props.confirm || (false as boolean)
 	)
@@ -129,3 +129,5 @@ export const ButtonDelete = memo((props: IButtonDeleteProps) => {
 		</>
 	)
 })
+
+export default ButtonDelete

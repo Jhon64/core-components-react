@@ -13,7 +13,7 @@ interface IModalProps {
 	children?: JSX.Element
 	setFooter?: () => JSX.Element
 }
-export const Modal = React.memo((props: IModalProps) => {
+ const Modal = React.memo((props: IModalProps) => {
 	const width =
 		props?.size == 'lg' ? '70rem' : props?.size == 'xl' ? '90rem' : '50rem'
 	const left =
@@ -79,3 +79,5 @@ export const Modal = React.memo((props: IModalProps) => {
 		</Fragment>
 	)
 })
+
+export default Modal

@@ -45,7 +45,7 @@ interface IPropSelect {
 	style?: string
 }
 
-export class Select2 extends Component<IPropSelect, IStateSelect> {
+ class Select2 extends Component<IPropSelect, IStateSelect> {
 	constructor(props: IPropSelect) {
 		super(props)
 		const list=this.parseListoptions()
@@ -224,3 +224,5 @@ export class Select2 extends Component<IPropSelect, IStateSelect> {
 		)
 	}
 }
+
+export default Select2

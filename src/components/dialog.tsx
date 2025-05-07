@@ -16,7 +16,7 @@ interface DialogWithContentProps {
   size?: size;
 }
 
-export const Dialog1: React.FC<DialogWithContentProps> = ({
+ const Dialog1: React.FC<DialogWithContentProps> = ({
   show,
   setFooter,
   setHeader,
@@ -54,3 +54,5 @@ export const Dialog1: React.FC<DialogWithContentProps> = ({
     </Dialog>
   );
 };
+
+export default Dialog1;
